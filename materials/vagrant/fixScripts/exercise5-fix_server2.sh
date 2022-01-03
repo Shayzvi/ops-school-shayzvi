@@ -19,3 +19,4 @@ sudo chmod 600 /root/.ssh/id_rsa
 #turn off host key checking
 sudo sed -i 's/#   StrictHostKeyChecking ask/    StrictHostKeyChecking no/g' /etc/ssh/ssh_config
 sudo service ssh restart
+
